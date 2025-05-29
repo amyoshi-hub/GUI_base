@@ -1,0 +1,4 @@
+ここにglfw入れる
+https://www.glfw.org/
+もしくはgreeglutとかを使う人もいるかもしれない
+cmakeする必要がある
