@@ -1,2 +1,6 @@
 cmake ..
 build
+
+cd ../glfw-3.4/build
+cmake ..
+make
