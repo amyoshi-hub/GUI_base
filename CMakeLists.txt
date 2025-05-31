@@ -20,7 +20,10 @@ add_library(glad glad/src/glad.c)
 target_include_directories(glad PUBLIC glad/include)
 
 # GLFWの設定
+# glfw-3.4をサブディレクトリとして追加
 add_subdirectory(glfw-3.4)
+# GLFWのインクルードディレクトリを指定
+target_include_directories(glad PUBLIC glfw-3.4/include)
 
 # 実行ファイルの設定
 add_executable(ImGuiExample main.cpp ${IMGUI_SOURCES})
