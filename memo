@@ -1,0 +1,4 @@
+windowsならばglfwのmake時にmingwようにコンパイルすれば良い
+linuxならwaylandとx11の依存関係が満たされる必要が出てくる
+sudo apt install libxkbcommon-dev
+sudo apt install libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
